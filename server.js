@@ -3,10 +3,10 @@ const axios = require("axios");
 
 const options = {
   method: 'GET',
-  url: process.env.JOB_LIST_URL,
+  url: "https://jobs-from-remoteok.p.rapidapi.com/",
   headers: {
     'X-RapidAPI-Key': process.env.RAPID_API_KEY,
-    'X-RapidAPI-Host': process.env.RAPID_API_HOST
+    'X-RapidAPI-Host': "jobs-from-remoteok.p.rapidapi.com"
   }
 };
 
